@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #181a1b;
+  color: antiquewhite;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  padding: 20px 30px;
+  background: rgb(4, 0, 36);
+  background: linear-gradient(90deg, rgb(4, 0, 36) 35%, rgb(71, 9, 121) 66%);
+}
+header a {
+  text-decoration: none;
+  color: aqua;
+}
+header ul li {
+  display: inline-block;
+}
+header ul li a {
+  font-size: 18px;
+  margin: 0 20px;
+  padding: 6px 10px;
+  border-radius: 7px;
+  transition: 0.3s;
+}
+header ul li a:hover {
+  background-color: rgba(170, 157, 157, 0.3019607843);
+  color: azure;
+}
+
+.bg {
+  background: url(../../../images/bg.jpg);
+  height: 100vh;
+}
+
+table {
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+  border-spacing: 10px;
+}
+table tr td {
+  border: 1px solid #585757;
+}
+table tr td img {
+  width: 200px;
+  border-radius: 10px;
+}
+table tr td h3 {
+  margin-top: 20px;
+}
+table tr td a {
+  display: inline-block;
+  margin: 20px 0;
+  text-decoration: none;
+  padding: 7px 10px;
+  background: #000;
+  border-radius: 7px;
+}
+
+.ditals {
+  padding: 100px 20px;
+  direction: rtl;
+}
+.ditals img {
+  width: 300px;
+}
+.ditals h2 {
+  margin: 15px 0;
+  width: 350px;
+  color: aqua;
+}
+.ditals ul li {
+  line-height: 25px;
+}
+.ditals a {
+  display: inline-block;
+  text-decoration: none;
+  background: #000;
+  margin: 15px 20px;
+  padding: 7px 10px;
+  border-radius: 7px;
+}/*# sourceMappingURL=style.css.map */
+
+
+details{
+  padding: 120px 20px;
+  direction: rtl;
+}
+
+details summary{
+  color:aqua;
+}
+
+details ul li{
+  line-height: 25px;
+}
+

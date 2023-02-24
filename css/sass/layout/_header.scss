@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 20px 30px;
+    background: rgb(4,0,36);
+    background: linear-gradient(90deg, rgba(4,0,36,1) 35%, rgba(71,9,121,1) 66%);
+    a{
+        text-decoration: none;
+        color: aqua;
+    }
+
+    ul li{
+        display: inline-block;
+
+        a{
+            font-size: 18px;
+            margin: 0 20px;
+            padding: 6px 10px;
+            border-radius: 7px;
+            transition: 0.3s;
+        }
+
+        a:hover{
+                background-color: #aa9d9d4d;
+                color: azure;
+        }
+    }
+}

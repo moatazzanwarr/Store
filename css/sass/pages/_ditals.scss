@@ -1,0 +1,30 @@
+.ditals{
+    padding: 100px 20px;
+    direction: rtl;
+
+    img{
+        width: 300px;
+    }
+
+    h2{
+        margin: 15px 0;
+        width: 350px;
+        color: aqua;
+    }
+
+    ul{
+
+        li{
+            line-height: 25px;
+        }
+    }
+
+    a{
+        display: inline-block;
+        text-decoration: none;
+        background: #000;
+        margin: 15px 20px;
+        padding: 7px 10px;
+        border-radius: 7px;
+    }
+}

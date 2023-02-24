@@ -1,0 +1,38 @@
+.bg{
+    background: url(../../../images/bg.jpg);
+    // height: calc(100vh - 80px);
+    height: 100vh;
+}
+
+// Start table
+
+table{
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    border-spacing: 10px;
+    tr{
+        td{
+            border: 1px solid #585757;
+            img{
+                width: 200px;
+                border-radius: 10px;
+            }
+
+            h3{
+                margin-top: 20px;
+            }
+
+            a{
+                display: inline-block;
+                margin: 20px 0;
+                text-decoration: none;
+                padding: 7px 10px;
+                background: #000;
+                border-radius: 7px;
+            }
+        }
+    }
+}
+
+// End table
